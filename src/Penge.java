@@ -49,7 +49,6 @@ public class Penge {
         Rest = Rest % coin6;
 
         //Outputs
-
         System.out.println("\n20: " + Tyver + " Stk");
         System.out.println("10: " + Tier + " Stk");
         System.out.println("5: " + Femmer + " Stk");
