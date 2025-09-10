@@ -15,10 +15,10 @@ public class PengeVersion2 {
         double[] Coins = {20,10,5,2,1,0.5};
 
         //For loop der køre igennem hver af mønterne
-        for (int i = 0; i < Coins.length; i++) {
-            double Temp = (int)(TotalAmount/Coins[i]);
-            TotalAmount %= Coins[i];
-            System.out.println(Coins[i] + ": " + (int)Temp);
+        for (double coin : Coins) {
+            double Temp = (int) (TotalAmount / coin);
+            TotalAmount %= coin;
+            System.out.println(coin + ": " + (int) Temp);
         }
         //Rest beløb printes
         System.out.println("Rest beløb: " + TotalAmount);
