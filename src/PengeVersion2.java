@@ -13,14 +13,14 @@ public class PengeVersion2 {
 
         //Variables
         double[] Coins = {20,10,5,2,1,0.5};
-        double Rest = TotalAmount;
 
         //For loop der køre igennem hver af mønterne
         for (int i = 0; i < Coins.length; i++) {
-            double Temp = (int)(Rest/Coins[i]);
-            Rest = Rest % Coins[i];
+            double Temp = (int)(TotalAmount/Coins[i]);
+            TotalAmount %= Coins[i];
             System.out.println(Coins[i] + ": " + (int)Temp);
         }
-        System.out.println("Rest beløb: " + Rest);
+        //Rest beløb printes
+        System.out.println("Rest beløb: " + TotalAmount);
     }
 }
