@@ -39,7 +39,7 @@ public class Penge {
         int Femmer = (int)(Rest/coin3);
         Rest = Rest % coin3;
 
-        int toer = (int)(Rest/coin4);
+        int Toer = (int)(Rest/coin4);
         Rest = Rest % coin4;
 
         int Etter = (int)(Rest/coin5);
@@ -52,7 +52,7 @@ public class Penge {
         System.out.println("\n20: " + Tyver + " Stk");
         System.out.println("10: " + Tier + " Stk");
         System.out.println("5: " + Femmer + " Stk");
-        System.out.println("2: " + toer + " Stk");
+        System.out.println("2: " + Toer + " Stk");
         System.out.println("1: " + Etter + " Stk");
         System.out.println("0.5: " + Halvkrone + " Stk");
         System.out.println("Rest beløb: " + Rest);
