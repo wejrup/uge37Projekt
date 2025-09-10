@@ -11,6 +11,7 @@ import java.io.*;
 
 public class Pyramide {
     public static void main(String[] args) throws IOException {
+
         //Inputter til at håndtere inputs
         BufferedReader input =
                 new BufferedReader(
