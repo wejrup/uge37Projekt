@@ -23,7 +23,6 @@ public class Penge {
         int coin4 = 2;
         int coin5 = 1;
         double coin6 = .5;
-        double Rest;
 
         //Input til at indtaste beløb man ønsker fordelt
         System.out.print("Indtast Beløb: ");
@@ -31,7 +30,7 @@ public class Penge {
 
         //Møntælling
         int Tyver = (int)(TotalAmount/coin1);
-        Rest = TotalAmount % coin1;
+        double Rest = TotalAmount % coin1;
 
         int Tier = (int)(Rest/coin2);
         Rest = Rest % coin2;
